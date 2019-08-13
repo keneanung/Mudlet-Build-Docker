@@ -1,6 +1,9 @@
 version: 1.0.{build}
 image: Visual Studio 2017
 
+environment:
+  APPVEYOR_BUILD_WORKER_CLOUD: gce
+
 install:
   - docker version
 
