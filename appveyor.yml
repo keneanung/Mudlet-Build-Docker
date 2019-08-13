@@ -5,5 +5,5 @@ install:
   - docker version
 
 build_script:
-  - git clone https://github.com/Mudlet/Mudlet.git
+  - git clone -b keneanung-patch-1 https://github.com/keneanung/Mudlet-1.git
   - docker build -t keneanung/mudlet-build-docker-windows .
